@@ -15,9 +15,6 @@ app.use((err, req, res) => {
   res.sendStatus(500);
 });
 
-//force:true in development only
-db.sync({force: true}).then(() => {
-  app.listen(process.env.PORT || 8080);
-});
+app.listen(process.env.PORT || 8080)
 
 
