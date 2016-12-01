@@ -1,0 +1,36 @@
+@import "materialize";
+
+.nav-wrap {
+  text-align: center;
+  ul {
+    list-style-type: none;
+    li {
+      display: inline;
+      padding: 30px;
+      a {
+        color: white;
+      }
+    }
+    margin: 0;
+    padding: 20px;
+  }
+  background: #37474f;
+  margin-top: 0;
+}
+
+.intro {
+  background: url('../images/escheresque.png');
+  text-align: center;
+  h1 {
+    color: #5e5e5e;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 30px;
+  }
+  h4 {
+    font-style: italic;
+    color: #716f6f;
+    margin-top: 10px;
+    padding-bottom: 30px;
+  }
+}
