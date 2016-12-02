@@ -6447,4 +6447,5 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     font-style: italic;
     color: #716f6f;
     margin-top: 10px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+    margin-bottom: 0; }
