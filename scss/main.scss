@@ -1,4 +1,5 @@
 @import "materialize";
+@import "font-awesome/font-awesome";
 
 .nav-wrap {
   text-align: center;
@@ -18,8 +19,11 @@
   margin-top: 0;
 }
 
-.intro {
+.cube-bg {
   background: url('../images/escheresque.png');
+}
+
+.intro {
   text-align: center;
   h1 {
     color: #5e5e5e;
@@ -34,4 +38,36 @@
     padding-bottom: 30px;
     margin-bottom: 0;
   }
+  .connect li {
+    display: inline;
+    padding: 10px;
+    a i {
+      color: #5e5e5e;
+      &:hover {
+        color: #88b0ef;
+      }
+    }
+
+  }
+}
+
+.card-title-text {
+  background: rgba(55,55,55,0.8);
+  padding: 10px;
+}
+
+.about-nav {
+  li {
+    display: inline;
+    .btn {
+      background-color: #546e7a;
+      &:hover {
+        background-color: #607d8b;
+      }
+    }
+  }
+}
+
+.profile-pic {
+  text-align: center;
 }
