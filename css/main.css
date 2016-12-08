@@ -8799,6 +8799,35 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     background-color: #546e7a; }
     .about-nav li .btn:hover, .about-nav li .btn-large:hover {
       background-color: #607d8b; }
+    .about-nav li .btn.selected, .about-nav li .selected.btn-large {
+      background-color: #ffab40; }
+
+.skills h5 {
+  font-size: 1.5em; }
 
 .profile-pic {
-  text-align: center; }
+  text-align: center;
+  margin-top: 20px; }
+
+.one-job p.employer {
+  margin-bottom: 0; }
+
+.one-job p.job-title {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.one-job p.date {
+  margin-top: 20px; }
+
+.one-job .employer {
+  font-weight: bold;
+  font-size: 1.8em; }
+
+.one-job .job-title {
+  font-weight: bold;
+  font-size: 1.4em;
+  text-decoration: underline; }
+
+.one-job ul.job-bullets > li {
+  list-style-type: disc;
+  margin-left: 2em; }
