@@ -64,10 +64,46 @@
       &:hover {
         background-color: #607d8b;
       }
+      &.selected {
+        background-color: #ffab40;
+      }
     }
+  }
+}
+
+.skills {
+  h5 {
+    font-size: 1.5em;
   }
 }
 
 .profile-pic {
   text-align: center;
+  margin-top: 20px;
+}
+
+.one-job {
+  p.employer {
+    margin-bottom: 0;
+  }
+  p.job-title {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  p.date {
+    margin-top: 20px;
+  }
+  .employer {
+    font-weight: bold;
+    font-size: 1.8em;
+  }
+  .job-title {
+    font-weight: bold;
+    font-size: 1.4em;
+    text-decoration: underline;
+  }
+  ul.job-bullets > li {
+    list-style-type: disc;
+    margin-left: 2em;
+  }
 }
