@@ -38,17 +38,18 @@
     padding-bottom: 30px;
     margin-bottom: 0;
   }
-  .connect li {
-    display: inline;
-    padding: 10px;
-    a i {
-      color: #5e5e5e;
-      &:hover {
-        color: #88b0ef;
-      }
-    }
+}
 
+.connect li {
+  display: inline;
+  padding: 10px;
+  a i {
+    color: #5e5e5e;
+    &:hover {
+      color: #88b0ef;
+    }
   }
+
 }
 
 .card-title-text {
@@ -74,6 +75,7 @@
 .skills {
   h5 {
     font-size: 1.5em;
+    color: #5e5e5e;
   }
 }
 
@@ -105,5 +107,28 @@
   ul.job-bullets > li {
     list-style-type: disc;
     margin-left: 2em;
+  }
+}
+
+#about {
+  padding-bottom: 30px;
+}
+
+#contact .card-panel {
+  margin: 0 200px;
+  text-align: center;
+  p a {
+    color: #212121
+  }
+}
+
+.email-phone {
+  text-align: left;
+  display: inline-block;
+}
+
+@media (max-width: 800px) {
+  #contact .card-panel {
+    margin: 0;
   }
 }
