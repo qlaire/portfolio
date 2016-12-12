@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "./bin/build-css",
-    "watch-css": "./bin/watch-css"
+    "watch-css": "./bin/watch-css",
+    "deploy-demo": "git push origin :gh-pages && git subtree push --prefix public origin gh-pages"
   },
   "repository": {
     "type": "git",
