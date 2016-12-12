@@ -8849,4 +8849,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 @media (max-width: 800px) {
   #contact .card-panel {
-    margin: 0; } }
+    margin: 0; }
+  .about-nav li .btn, .about-nav li .btn-large {
+    padding: 0 1rem; }
+  .about-nav-mob {
+    text-align: center; } }
